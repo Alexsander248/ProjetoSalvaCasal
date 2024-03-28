@@ -1,24 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
 @import url(header.css);
-
-:root {
-  --rosa: #f5bdf5;
-  --azul: #519caf;
-}
-
-body {
-  font-family: "Noto Sans", sans-serif;
-  margin: 0;
-}
-
-body * {
-  box-sizing: border-box;
-}
+@import url(botaoCustom.css);
 
 .main-login {
-  width: 100vw; /* vw = viewport width */
-  height: 100vh; /* viewport height */
-  background: var(--azul);
+  width: 100%; /* vw = viewport width */
+  height: 100%; /* viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +21,7 @@ body * {
 }
 
 .left-login > h1 {
-  color: rgba(0, 0, 0, 0.808);
+  color: rgba(255, 255, 255, 0.808);
   font-size: 3vw;
 }
 
@@ -69,7 +55,7 @@ body * {
 }
 
 .card-login > h1 {
-  color: rgba(0, 0, 0, 0.808);
+  color: rgba(255, 255, 255, 0.808);
   font-weight: 800;
   margin: 0;
 }
@@ -97,12 +83,12 @@ body * {
 }
 
 .textfield > label {
-  color: #000000de;
+  color: #ffffffde;
   margin-bottom: 10px;
 }
 
 .textfield input ::placeholder {
-  color: #00000094;
+  color: rgba(255, 255, 255, 0.58);
 }
 
 .btn-login {
