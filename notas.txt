@@ -1,0 +1,2 @@
+background: rgb(81,156,175);
+background: linear-gradient(0deg, rgba(81,156,175,1) 0%, rgba(245,189,245,1) 53%, rgba(214,116,205,1) 100%);
